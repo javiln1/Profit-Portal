@@ -55,15 +55,6 @@
             line-height: 1.3;
         }
 
-        .calendly-wrapper {
-            margin: 0 auto;
-            max-width: 100%;
-        }
-
-        .calendly-inline-widget {
-            min-width: 320px;
-            height: 700px;
-        }
 
         @media (max-width: 768px) {
             .container {
@@ -80,10 +71,6 @@
 
             .logo {
                 max-width: 120px;
-            }
-
-            .calendly-inline-widget {
-                height: 650px;
             }
         }
 
@@ -105,10 +92,6 @@
         .hero {
             animation: fadeIn 0.8s ease-out;
         }
-
-        .calendly-wrapper {
-            animation: fadeIn 1s ease-out 0.2s both;
-        }
     </style>
 </head>
 <body>
@@ -123,12 +106,10 @@
             <h1 class="headline">Book Your Call Below</h1>
         </section>
 
-        <div class="calendly-wrapper">
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/d/cwm7-33v-jbf/profit-portal-implementation-call-2?primary_color=45ae04" style="min-width:320px;height:700px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
-        </div>
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/d/cwm7-33v-jbf/profit-portal-implementation-call-2?primary_color=45ae04" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
     </div>
 </body>
 </html>
